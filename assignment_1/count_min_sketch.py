@@ -50,7 +50,7 @@ def main():
     stream = [1, 4, 7, 8, 4, 54, 76, 3, 1, 3, 5, 456, 3, 6, 7, 4, 9, 7, 0]
     hash_functions, hash_functions_range = get_hash_functions()
     hashes_matrix = pass_stream(stream, hash_functions, hash_functions_range)
-    num_to_count = 0
+    num_to_count = 4
     r = get_count_min(hashes_matrix, num_to_count, hash_functions)
     print("number ", num_to_count, " has passed ", int(r), "times approximately")
 
